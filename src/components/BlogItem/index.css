@@ -1,0 +1,45 @@
+.list_item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: solid 1px #d3d3d3;
+}
+.details_container {
+  padding-left: 20px;
+}
+.image {
+  width: 30%;
+}
+.avatar_img {
+  width: 40px;
+  border-radius: 20px;
+}
+.author_details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.topic {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #8e8e8e;
+}
+.title {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #000000;
+}
+.authorName {
+  padding-left: 10px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #8e8e8e;
+}
+.linkItem {
+  text-decoration: none;
+}
